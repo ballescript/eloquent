@@ -17,14 +17,14 @@ for(let i = 0; i < size; i++){
   } else {
       character = "#";
       line = ""
-        for(let j = 0; j < size; j++){
-          line += character;
-          if(character === " ") {
-            character = "#";
-          } else {
-              character = " ";
-            }
-        }
+      for(let j = 0; j < size; j++){
+        line += character;
+        if(character === " ") {
+          character = "#";
+        } else {
+            character = " ";
+          }
+      }
     console.log(line);
     }
 }
